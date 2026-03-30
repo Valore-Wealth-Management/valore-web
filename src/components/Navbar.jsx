@@ -1,14 +1,12 @@
 import { useState, useEffect } from 'react'
 import { NavLink, Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import valoreLogo from '../assets/valore wide.svg'
 
-const links = [
-  { to: '/',              label: 'Home'          },
-  { to: '/product',       label: 'Product'       },
-  { to: '/questionnaire', label: 'Early Access'  },
-]
+const LANGS = ['EN', 'DE', 'FR', 'PT']
 
 export default function Navbar() {
+  const { t, i18n } = useTranslation()
   const [scrolled, setScrolled] = useState(false)
 
   useEffect(() => {
@@ -16,6 +14,11 @@ export default function Navbar() {
     window.addEventListener('scroll', onScroll, { passive: true })
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
+
+  const links = [
+    { to: '/',        label: t('nav.home')    },
+    { to: '/product', label: t('nav.product') },
+  ]
 
   return (
     <nav
@@ -30,9 +33,9 @@ export default function Navbar() {
           <img src={valoreLogo} alt="Valore" className="h-7 w-auto" />
         </Link>
 
-        {/* Links */}
+        {/* Links + lang switcher */}
         <div className="hidden md:flex items-center gap-8">
-          {links.slice(0, 2).map(({ to, label }) => (
+          {links.map(({ to, label }) => (
             <NavLink
               key={to}
               to={to}
@@ -45,6 +48,27 @@ export default function Navbar() {
               {label}
             </NavLink>
           ))}
+
+          {/* Language switcher */}
+          <div className="flex items-center gap-1 border border-border rounded px-2 py-1">
+            {LANGS.map((lang, i) => (
+              <span key={lang} className="flex items-center">
+                <button
+                  onClick={() => i18n.changeLanguage(lang.toLowerCase())}
+                  className={`text-xs font-medium px-1 transition-colors ${
+                    i18n.resolvedLanguage === lang.toLowerCase()
+                      ? 'text-accent'
+                      : 'text-muted hover:text-fg-dim'
+                  }`}
+                >
+                  {lang}
+                </button>
+                {i < LANGS.length - 1 && (
+                  <span className="text-border text-xs select-none">·</span>
+                )}
+              </span>
+            ))}
+          </div>
         </div>
 
         {/* CTA */}
@@ -52,7 +76,7 @@ export default function Navbar() {
           to="/questionnaire"
           className="inline-flex items-center px-4 py-2 rounded bg-accent hover:bg-accent-hover text-bg-deep text-sm font-semibold tracking-wide transition-colors duration-200"
         >
-          Request Access
+          {t('nav.requestAccess')}
         </Link>
       </div>
     </nav>

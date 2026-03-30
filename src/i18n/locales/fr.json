@@ -1,0 +1,166 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "product": "Produit",
+    "earlyAccess": "Accès anticipé",
+    "requestAccess": "Demander l'accès"
+  },
+  "footer": {
+    "tagline": "Système de gestion de patrimoine.",
+    "sub": "Privé, consolidé, professionnel.",
+    "product": "Produit",
+    "features": "Fonctionnalités",
+    "company": "Entreprise",
+    "about": "À propos",
+    "copyright": "© {{year}} Valore. Tous droits réservés.",
+    "built": "Conçu pour les banques privées et les gérants de fortune indépendants."
+  },
+  "home": {
+    "eyebrow": "Système de gestion de patrimoine",
+    "headline1": "Patrimoine consolidé.",
+    "headline2": "Discrètement.",
+    "subtext": "Valore regroupe les positions de tous les dépositaires dans un tableau de bord unifié — conçu pour les gérants de fortune indépendants et les banques privées qui exigent discrétion et contrôle.",
+    "cta": "Demander un accès anticipé",
+    "explore": "Découvrir le produit",
+    "pillars": {
+      "local": "Aucune donnée téléversée",
+      "localSub": "Entièrement local",
+      "custodians": "Tous les dépositaires",
+      "custodiansSub": "Import PDF & XLSX",
+      "languages": "7 langues",
+      "languagesSub": "EN FR ES DE IT PT"
+    },
+    "privacy": {
+      "eyebrow": "La priorité n°1",
+      "heading": "Aucune donnée ne quitte votre machine.",
+      "body": "Les positions, portefeuilles et informations personnelles de vos clients sont traités et stockés exclusivement sur votre appareil. Valore ne nécessite aucune connexion Internet et ne maintient ni serveurs, ni comptes, ni télémétrie.",
+      "bullet1": "Aucun compte requis pour utiliser l'application",
+      "bullet2": "Aucune requête réseau sortante pendant le fonctionnement",
+      "bullet3": "Données stockées localement dans un format chiffré et portable",
+      "bullet4": "Fonctionne entièrement hors ligne — environnements isolés pris en charge"
+    },
+    "features": {
+      "eyebrow": "Fonctionnalités clés",
+      "heading": "Tout ce qu'un bureau professionnel requiert.",
+      "viewAll": "Voir toutes les fonctionnalités →"
+    },
+    "quote": "Le patrimoine privé mérite un logiciel privé — pas un abonnement cloud géré par l'infrastructure de quelqu'un d'autre.",
+    "ctaBand": {
+      "heading": "Conçu pour les professionnels qui ne peuvent pas faire de compromis.",
+      "sub": "Rejoignez la liste d'attente et soyez parmi les premiers gérants à accéder à Valore.",
+      "cta": "Demander un accès anticipé"
+    }
+  },
+  "features": {
+    "consolidation": {
+      "title": "Consolidation multi-banques",
+      "description": "Importez des relevés de n'importe quel dépositaire en PDF ou XLSX. Toutes les positions en un seul endroit."
+    },
+    "offline": {
+      "title": "Local d'abord. Hors ligne par conception.",
+      "description": "Aucune donnée ne quitte votre machine. Aucune dépendance cloud, aucune connexion requise."
+    },
+    "compliance": {
+      "title": "Suivi conformité & KYC",
+      "description": "Surveillez les obligations réglementaires, le statut des documents et les profils de risque clients."
+    },
+    "portfolio": {
+      "title": "Vue portefeuille unifiée",
+      "description": "Toutes les positions, tous les dépositaires, tous les clients — agrégés en un coup d'œil."
+    },
+    "kpis": {
+      "title": "KPIs du tableau de bord",
+      "description": "Suivez l'AUM, le P&L YTD, la répartition des actifs et les résumés par dépositaire."
+    },
+    "research": {
+      "title": "Recherche d'actifs",
+      "description": "Interrogez l'exposition inter-clients à tout titre, secteur ou zone géographique."
+    },
+    "multilang": {
+      "title": "Multilingue",
+      "description": "Support complet pour l'anglais, le français, l'espagnol, l'allemand, l'italien et le portugais."
+    },
+    "theme": {
+      "title": "Thème sombre & clair",
+      "description": "Une interface soigneusement conçue en modes sombre et clair, optimisée pour une utilisation quotidienne prolongée."
+    }
+  },
+  "product": {
+    "eyebrow": "Le produit",
+    "heading": "Des outils de précision pour le patrimoine privé.",
+    "sub": "Un système complet de gestion de patrimoine pour les conseillers indépendants et les banques privées.",
+    "blocks": {
+      "consolidation": {
+        "eyebrow": "Consolidation",
+        "heading": "Une vue sur tous les dépositaires.",
+        "body": "Les clients privés détiennent rarement leurs actifs auprès d'un seul établissement. Valore accepte les relevés de garde de toute banque ou dépositaire et les résout en un registre unifié.",
+        "bullet1": "Normalisation automatique des positions entre formats de relevés",
+        "bullet2": "Import historique pour un calcul précis du P&L",
+        "bullet3": "Conversion de devises aux taux de la date d'enregistrement",
+        "bullet4": "Attribution par dépositaire dans tous les rapports"
+      },
+      "privacy": {
+        "eyebrow": "Confidentialité",
+        "heading": "Privé par architecture, pas par politique.",
+        "body": "Valore traite tout localement. Il n'y a ni comptes utilisateurs, ni serveurs, ni connexions sortantes. Les données de vos clients ne transitent jamais par un réseau qui ne vous appartient pas.",
+        "bullet1": "Aucune connexion Internet requise après installation",
+        "bullet2": "Stockage local chiffré",
+        "bullet3": "Aucun rapport de plantage, analytique ou télémétrie",
+        "bullet4": "Fonctionne dans des environnements entièrement isolés"
+      },
+      "compliance": {
+        "eyebrow": "Conformité",
+        "heading": "Obligations réglementaires, organisées.",
+        "body": "La documentation KYC, les évaluations d'adéquation et les cycles de révision sont suivis par client avec notifications d'expiration automatiques.",
+        "bullet1": "Suivi et alertes d'expiration des documents",
+        "bullet2": "Versionnage des profils de risque",
+        "bullet3": "Dossiers clients prêts pour l'audit",
+        "bullet4": "Cycles de révision configurables par juridiction"
+      }
+    },
+    "grid": {
+      "eyebrow": "Toutes les fonctionnalités",
+      "heading": "Tout inclus. Rien de superflu."
+    },
+    "cta": {
+      "heading": "Prêt à consolider votre pratique ?",
+      "sub": "Demandez l'accès et notre équipe vous contactera pour organiser une démonstration privée.",
+      "button": "Demander un accès anticipé"
+    }
+  },
+  "questionnaire": {
+    "eyebrow": "Accès anticipé",
+    "heading": "Demander l'accès à Valore.",
+    "sub": "Nous accueillons un nombre limité de professionnels de la gestion de patrimoine. Remplissez le formulaire ci-dessous et notre équipe vous contactera.",
+    "fields": {
+      "name": "Nom complet",
+      "namePlaceholder": "Jean Dupont",
+      "firm": "Cabinet",
+      "firmPlaceholder": "Dupont & Associés",
+      "email": "E-mail professionnel",
+      "emailPlaceholder": "j.dupont@cabinet.fr",
+      "role": "Rôle / Titre",
+      "rolePlaceholder": "Gestionnaire de portefeuille",
+      "aum": "Actifs sous gestion",
+      "aumDefault": "Sélectionner une tranche",
+      "message": "Informations complémentaires",
+      "messagePlaceholder": "Nombre de clients, dépositaires, exigences spécifiques…"
+    },
+    "aum": {
+      "under10": "Moins de 10 M$",
+      "10to50": "10–50 M$",
+      "50to250": "50–250 M$",
+      "250to1b": "250 M$ – 1 Md$",
+      "over1b": "Plus de 1 Md$",
+      "prefer": "Préfère ne pas répondre"
+    },
+    "submit": "Envoyer la demande",
+    "submitting": "Envoi en cours…",
+    "error": "Une erreur s'est produite. Veuillez réessayer.",
+    "confidentiality": "Vos informations sont traitées avec la plus stricte confidentialité et ne seront pas partagées avec des tiers.",
+    "success": {
+      "heading": "Merci.",
+      "body": "Votre demande a bien été reçue. Nous l'examinerons et vous contacterons prochainement pour organiser une démonstration privée."
+    }
+  }
+}

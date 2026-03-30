@@ -1,32 +1,9 @@
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import FeatureCard from '../components/FeatureCard'
 import TypeWriter from '../components/TypeWriter'
 import { useInView } from '../hooks/useInView'
 import dashboardImg from '../assets/dashboard.png'
-
-const highlights = [
-  {
-    title: 'Multi-bank consolidation',
-    description:
-      'Import statements from any custodian via PDF or XLSX. All positions in one place, regardless of institution.',
-  },
-  {
-    title: 'Local-first. Offline by design.',
-    description:
-      'No data ever leaves your machine. No cloud dependency, no connectivity requirement — full control remains with you.',
-  },
-  {
-    title: 'Compliance & KYC tracking',
-    description:
-      'Monitor regulatory obligations, document status, and client risk profiles across your entire book.',
-  },
-]
-
-const pillars = [
-  { label: 'No data uploaded',  sub: 'Fully local'        },
-  { label: 'All custodians',    sub: 'PDF & XLSX import'  },
-  { label: '7 languages',       sub: 'EN FR ES DE IT PT'  },
-]
 
 function RevealSection({ children, className = '', delay = '' }) {
   const [ref, inView] = useInView()
@@ -38,7 +15,27 @@ function RevealSection({ children, className = '', delay = '' }) {
 }
 
 export default function Home() {
+  const { t } = useTranslation()
   const [screenshotRef, screenshotInView] = useInView({ threshold: 0.05 })
+
+  const highlights = [
+    { title: t('features.consolidation.title'), description: t('features.consolidation.description') },
+    { title: t('features.offline.title'),       description: t('features.offline.description')       },
+    { title: t('features.compliance.title'),    description: t('features.compliance.description')    },
+  ]
+
+  const pillars = [
+    { label: t('home.pillars.local'),      sub: t('home.pillars.localSub')       },
+    { label: t('home.pillars.custodians'), sub: t('home.pillars.custodiansSub')  },
+    { label: t('home.pillars.languages'),  sub: t('home.pillars.languagesSub')   },
+  ]
+
+  const privacyBullets = [
+    t('home.privacy.bullet1'),
+    t('home.privacy.bullet2'),
+    t('home.privacy.bullet3'),
+    t('home.privacy.bullet4'),
+  ]
 
   return (
     <>
@@ -47,19 +44,17 @@ export default function Home() {
         <div className="container-content pt-28 pb-0">
 
           <p className="text-accent text-xs font-medium uppercase tracking-[0.22em] mb-7">
-            Wealth Management System
+            {t('home.eyebrow')}
           </p>
 
-          <h1 className="font-serif text-5xl md:text-6xl lg:text-[5rem] font-semibold text-fg mb-6 max-w-3xl leading-none tracking-tight">
-            Wealth, consolidated.
+          <h1 className="font-serif text-6xl md:text-7xl lg:text-[5.5rem] font-semibold text-fg mb-6 leading-none tracking-tight">
+            {t('home.headline1')}
             <br />
-            <span className="text-accent">Privately.</span>
+            <span className="text-accent">{t('home.headline2')}</span>
           </h1>
 
           <p className="text-fg-dim text-xl font-light leading-relaxed max-w-xl mb-3">
-            Valore brings together positions across all custodians into one
-            unified dashboard — built for independent wealth managers and
-            private banks who demand discretion.
+            {t('home.subtext')}
           </p>
 
           <p className="text-muted text-base font-light mb-10 h-6">
@@ -71,13 +66,13 @@ export default function Home() {
               to="/questionnaire"
               className="inline-flex items-center px-7 py-3 rounded bg-accent hover:bg-accent-hover text-bg-deep text-sm font-semibold tracking-wide transition-colors duration-200"
             >
-              Request Early Access
+              {t('home.cta')}
             </Link>
             <Link
               to="/product"
               className="inline-flex items-center gap-1.5 text-fg-dim hover:text-fg text-sm font-medium transition-colors"
             >
-              Explore the product
+              {t('home.explore')}
               <span aria-hidden>→</span>
             </Link>
           </div>
@@ -94,11 +89,7 @@ export default function Home() {
               <span className="w-2.5 h-2.5 rounded-full bg-border" />
               <span className="w-2.5 h-2.5 rounded-full bg-border" />
             </div>
-            <img
-              src={dashboardImg}
-              alt="Valore dashboard"
-              className="w-full object-cover object-top"
-            />
+            <img src={dashboardImg} alt="Valore dashboard" className="w-full object-cover object-top" />
           </div>
         </div>
       </section>
@@ -108,11 +99,7 @@ export default function Home() {
         <div className="container-content py-0">
           <div className="flex flex-col sm:flex-row divide-y sm:divide-y-0 sm:divide-x divide-border">
             {pillars.map(({ label, sub }, i) => (
-              <RevealSection
-                key={label}
-                delay={`reveal-delay-${i + 1}`}
-                className="flex-1 px-8 py-6 text-center"
-              >
+              <RevealSection key={label} delay={`reveal-delay-${i + 1}`} className="flex-1 px-8 py-6 text-center">
                 <p className="text-fg text-sm font-semibold">{label}</p>
                 <p className="text-muted text-xs mt-0.5 font-light">{sub}</p>
               </RevealSection>
@@ -128,27 +115,18 @@ export default function Home() {
 
             <RevealSection className="md:w-1/2">
               <p className="text-accent text-xs uppercase tracking-[0.2em] font-medium mb-5">
-                The #1 priority
+                {t('home.privacy.eyebrow')}
               </p>
               <h2 className="font-serif text-3xl md:text-4xl font-semibold text-fg mb-5 leading-tight">
-                No data ever leaves
-                <br />your machine.
+                {t('home.privacy.heading')}
               </h2>
               <p className="text-fg-dim font-light leading-relaxed">
-                Your clients' positions, portfolios, and personal information are
-                processed and stored exclusively on your device. Valore requires
-                no internet connection to function and maintains no servers,
-                accounts, or telemetry. What is private remains private.
+                {t('home.privacy.body')}
               </p>
             </RevealSection>
 
             <RevealSection className="md:w-1/2 flex flex-col gap-4 md:pt-16" delay="reveal-delay-2">
-              {[
-                'No account required to use the application',
-                'No outbound network requests during operation',
-                'Data stored locally in an encrypted, portable format',
-                'Works fully offline — air-gapped environments supported',
-              ].map((item) => (
+              {privacyBullets.map((item) => (
                 <div key={item} className="flex items-start gap-3 pb-4 border-b border-border last:border-0">
                   <span className="text-positive mt-0.5 shrink-0 text-sm">✓</span>
                   <p className="text-fg-dim text-sm font-light">{item}</p>
@@ -166,10 +144,10 @@ export default function Home() {
 
           <RevealSection className="mb-16">
             <p className="text-muted text-xs uppercase tracking-[0.2em] font-medium mb-4">
-              Core capabilities
+              {t('home.features.eyebrow')}
             </p>
             <h2 className="font-serif text-3xl md:text-4xl font-semibold text-fg max-w-xl leading-tight">
-              Everything a professional desk requires.
+              {t('home.features.heading')}
             </h2>
           </RevealSection>
 
@@ -182,24 +160,20 @@ export default function Home() {
           </div>
 
           <RevealSection className="mt-10" delay="reveal-delay-2">
-            <Link
-              to="/product"
-              className="text-accent hover:text-accent-hover text-sm font-medium transition-colors"
-            >
-              View all features →
+            <Link to="/product" className="text-accent hover:text-accent-hover text-sm font-medium transition-colors">
+              {t('home.features.viewAll')}
             </Link>
           </RevealSection>
         </div>
       </section>
 
-      {/* ─── Large quote / statement ─────────────────────────────────── */}
+      {/* ─── Quote ───────────────────────────────────────────────────── */}
       <section className="bg-bg-deep border-t border-border">
         <div className="container-content py-28">
           <RevealSection>
             <p className="font-serif text-3xl md:text-5xl font-semibold text-fg leading-snug max-w-4xl">
-              <span className="text-accent">Private wealth</span> deserves
-              private software — not a cloud subscription managed by someone
-              else's infrastructure.
+              <span className="text-accent">{t('home.quote').split('—')[0]}</span>
+              {t('home.quote').includes('—') ? `— ${t('home.quote').split('—')[1]}` : ''}
             </p>
           </RevealSection>
         </div>
@@ -210,17 +184,16 @@ export default function Home() {
         <div className="container-content py-24">
           <RevealSection>
             <h2 className="font-serif text-3xl md:text-4xl font-semibold text-fg mb-4 max-w-xl">
-              Built for professionals who can't compromise.
+              {t('home.ctaBand.heading')}
             </h2>
             <p className="text-fg-dim font-light mb-8 max-w-md">
-              Join the waitlist and be among the first wealth managers to access
-              Valore when it opens to new clients.
+              {t('home.ctaBand.sub')}
             </p>
             <Link
               to="/questionnaire"
               className="inline-flex items-center px-8 py-3.5 rounded bg-accent hover:bg-accent-hover text-bg-deep text-sm font-semibold tracking-wide transition-colors duration-200"
             >
-              Request Early Access
+              {t('home.ctaBand.cta')}
             </Link>
           </RevealSection>
         </div>

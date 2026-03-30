@@ -1,0 +1,166 @@
+{
+  "nav": {
+    "home": "Início",
+    "product": "Produto",
+    "earlyAccess": "Acesso antecipado",
+    "requestAccess": "Solicitar acesso"
+  },
+  "footer": {
+    "tagline": "Sistema de gestão de patrimônio.",
+    "sub": "Privado, consolidado, profissional.",
+    "product": "Produto",
+    "features": "Funcionalidades",
+    "company": "Empresa",
+    "about": "Sobre",
+    "copyright": "© {{year}} Valore. Todos os direitos reservados.",
+    "built": "Desenvolvido para bancos privados e gestores de patrimônio independentes."
+  },
+  "home": {
+    "eyebrow": "Sistema de gestão de patrimônio",
+    "headline1": "Patrimônio consolidado.",
+    "headline2": "Privadamente.",
+    "subtext": "O Valore reúne posições de todos os custodiantes num único painel — desenvolvido para gestores de patrimônio independentes e bancos privados que exigem discrição e controlo.",
+    "cta": "Solicitar acesso antecipado",
+    "explore": "Explorar o produto",
+    "pillars": {
+      "local": "Nenhum dado enviado",
+      "localSub": "Totalmente local",
+      "custodians": "Todos os custodiantes",
+      "custodiansSub": "Importação PDF & XLSX",
+      "languages": "7 idiomas",
+      "languagesSub": "EN FR ES DE IT PT"
+    },
+    "privacy": {
+      "eyebrow": "A prioridade nº 1",
+      "heading": "Nenhum dado sai da sua máquina.",
+      "body": "As posições, carteiras e informações pessoais dos seus clientes são processadas e armazenadas exclusivamente no seu dispositivo. O Valore não requer ligação à internet e não mantém servidores, contas ou telemetria.",
+      "bullet1": "Nenhuma conta necessária para utilizar a aplicação",
+      "bullet2": "Sem pedidos de rede de saída durante o funcionamento",
+      "bullet3": "Dados armazenados localmente em formato encriptado e portátil",
+      "bullet4": "Funciona totalmente offline — ambientes isolados suportados"
+    },
+    "features": {
+      "eyebrow": "Capacidades principais",
+      "heading": "Tudo o que um escritório profissional necessita.",
+      "viewAll": "Ver todas as funcionalidades →"
+    },
+    "quote": "O patrimônio privado merece software privado — não uma subscrição cloud gerida pela infraestrutura de outro.",
+    "ctaBand": {
+      "heading": "Desenvolvido para profissionais que não podem ceder.",
+      "sub": "Junte-se à lista de espera e seja dos primeiros gestores a aceder ao Valore.",
+      "cta": "Solicitar acesso antecipado"
+    }
+  },
+  "features": {
+    "consolidation": {
+      "title": "Consolidação multi-banco",
+      "description": "Importe extratos de qualquer custodiante via PDF ou XLSX. Todas as posições num só lugar."
+    },
+    "offline": {
+      "title": "Local-first. Offline por design.",
+      "description": "Nenhum dado sai da sua máquina. Sem dependência de cloud, sem requisito de conectividade."
+    },
+    "compliance": {
+      "title": "Acompanhamento de Compliance & KYC",
+      "description": "Monitorize obrigações regulatórias, estado de documentos e perfis de risco de clientes."
+    },
+    "portfolio": {
+      "title": "Visão unificada de carteira",
+      "description": "Todas as posições, todos os custodiantes, todos os clientes — agregados de um relance."
+    },
+    "kpis": {
+      "title": "KPIs do painel",
+      "description": "Acompanhe AUM, P&L YTD, alocação de ativos e resumos por custodiante num único centro."
+    },
+    "research": {
+      "title": "Pesquisa de ativos",
+      "description": "Consulte a exposição entre clientes a qualquer título, setor ou geografia."
+    },
+    "multilang": {
+      "title": "Multilíngue",
+      "description": "Suporte completo para inglês, francês, espanhol, alemão, italiano e português."
+    },
+    "theme": {
+      "title": "Tema escuro & claro",
+      "description": "Uma interface cuidadosamente desenhada em ambos os modos, otimizada para uso diário prolongado."
+    }
+  },
+  "product": {
+    "eyebrow": "O produto",
+    "heading": "Ferramentas de precisão para patrimônio privado.",
+    "sub": "Um sistema completo de gestão de patrimônio para consultores independentes e bancos privados.",
+    "blocks": {
+      "consolidation": {
+        "eyebrow": "Consolidação",
+        "heading": "Uma visão sobre todos os custodiantes.",
+        "body": "Os clientes privados raramente detêm ativos numa única instituição. O Valore aceita extratos de custódia de qualquer banco ou custodiante e resolve-os num livro-razão unificado.",
+        "bullet1": "Normalização automática de posições entre formatos de extratos",
+        "bullet2": "Importação histórica para cálculo preciso de P&L",
+        "bullet3": "Conversão cambial às taxas da data de registo",
+        "bullet4": "Atribuição por custodiante em todos os relatórios"
+      },
+      "privacy": {
+        "eyebrow": "Privacidade",
+        "heading": "Privado por arquitetura, não por política.",
+        "body": "O Valore processa tudo localmente. Não há contas de utilizador, servidores ou ligações de saída. Os dados dos seus clientes nunca transitam por uma rede que não seja sua.",
+        "bullet1": "Sem internet necessária após a instalação",
+        "bullet2": "Armazenamento local encriptado",
+        "bullet3": "Sem relatórios de falhas, análises ou telemetria",
+        "bullet4": "Funciona em ambientes totalmente isolados"
+      },
+      "compliance": {
+        "eyebrow": "Compliance",
+        "heading": "Obrigações regulatórias, organizadas.",
+        "body": "A documentação KYC, as avaliações de adequação e os ciclos de revisão são acompanhados por cliente com notificações automáticas de expiração.",
+        "bullet1": "Acompanhamento e alertas de expiração de documentos",
+        "bullet2": "Versionamento de perfis de risco",
+        "bullet3": "Registos de clientes prontos para auditoria",
+        "bullet4": "Ciclos de revisão configuráveis por jurisdição"
+      }
+    },
+    "grid": {
+      "eyebrow": "Todas as capacidades",
+      "heading": "Tudo incluído. Nada supérfluo."
+    },
+    "cta": {
+      "heading": "Pronto para consolidar a sua prática?",
+      "sub": "Solicite acesso e a nossa equipa entrará em contacto para organizar uma demonstração privada.",
+      "button": "Solicitar acesso antecipado"
+    }
+  },
+  "questionnaire": {
+    "eyebrow": "Acesso antecipado",
+    "heading": "Solicitar acesso ao Valore.",
+    "sub": "Estamos a integrar um número limitado de profissionais de gestão de patrimônio. Preencha o formulário e a nossa equipa entrará em contacto.",
+    "fields": {
+      "name": "Nome completo",
+      "namePlaceholder": "João Silva",
+      "firm": "Empresa",
+      "firmPlaceholder": "Silva & Associados",
+      "email": "E-mail profissional",
+      "emailPlaceholder": "j.silva@empresa.pt",
+      "role": "Cargo / Título",
+      "rolePlaceholder": "Gestor de Carteiras",
+      "aum": "Ativos sob gestão",
+      "aumDefault": "Selecionar um intervalo",
+      "message": "Informações adicionais",
+      "messagePlaceholder": "Número de clientes, custodiantes com que trabalha, requisitos específicos…"
+    },
+    "aum": {
+      "under10": "Menos de $10M",
+      "10to50": "$10M – $50M",
+      "50to250": "$50M – $250M",
+      "250to1b": "$250M – $1B",
+      "over1b": "Mais de $1B",
+      "prefer": "Prefiro não dizer"
+    },
+    "submit": "Enviar pedido",
+    "submitting": "A enviar…",
+    "error": "Algo correu mal. Por favor tente novamente.",
+    "confidentiality": "As suas informações são tratadas com estrita confidencialidade e não serão partilhadas com terceiros.",
+    "success": {
+      "heading": "Obrigado.",
+      "body": "O seu pedido foi recebido. Iremos analisá-lo e entrar em contacto brevemente para organizar uma demonstração privada."
+    }
+  }
+}

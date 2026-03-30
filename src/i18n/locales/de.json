@@ -1,0 +1,166 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "product": "Produkt",
+    "earlyAccess": "Früher Zugang",
+    "requestAccess": "Zugang anfragen"
+  },
+  "footer": {
+    "tagline": "Vermögensverwaltungssystem.",
+    "sub": "Privat, konsolidiert, professionell.",
+    "product": "Produkt",
+    "features": "Funktionen",
+    "company": "Unternehmen",
+    "about": "Über uns",
+    "copyright": "© {{year}} Valore. Alle Rechte vorbehalten.",
+    "built": "Entwickelt für Privatbanken und unabhängige Vermögensverwalter."
+  },
+  "home": {
+    "eyebrow": "Vermögensverwaltungssystem",
+    "headline1": "Vermögen, konsolidiert.",
+    "headline2": "Privat.",
+    "subtext": "Valore bündelt Positionen aller Depotbanken in einem einheitlichen Dashboard — entwickelt für unabhängige Vermögensverwalter und Privatbanken, die Diskretion fordern.",
+    "cta": "Frühen Zugang anfragen",
+    "explore": "Produkt entdecken",
+    "pillars": {
+      "local": "Keine Daten hochgeladen",
+      "localSub": "Vollständig lokal",
+      "custodians": "Alle Depotbanken",
+      "custodiansSub": "PDF & XLSX Import",
+      "languages": "7 Sprachen",
+      "languagesSub": "EN FR ES DE IT PT"
+    },
+    "privacy": {
+      "eyebrow": "Oberste Priorität",
+      "heading": "Keine Daten verlassen Ihr Gerät.",
+      "body": "Die Positionen, Portfolios und persönlichen Daten Ihrer Kunden werden ausschließlich auf Ihrem Gerät verarbeitet und gespeichert. Valore benötigt keine Internetverbindung und unterhält keine Server, Konten oder Telemetrie.",
+      "bullet1": "Kein Konto zur Nutzung der Anwendung erforderlich",
+      "bullet2": "Keine ausgehenden Netzwerkanfragen während des Betriebs",
+      "bullet3": "Daten lokal in einem verschlüsselten, portablen Format gespeichert",
+      "bullet4": "Vollständig offline nutzbar — auch in Air-Gap-Umgebungen"
+    },
+    "features": {
+      "eyebrow": "Kernfunktionen",
+      "heading": "Alles, was ein professionelles Büro braucht.",
+      "viewAll": "Alle Funktionen anzeigen →"
+    },
+    "quote": "Privates Vermögen verdient private Software — kein Cloud-Abonnement, das von fremder Infrastruktur verwaltet wird.",
+    "ctaBand": {
+      "heading": "Entwickelt für Profis, die keine Kompromisse eingehen.",
+      "sub": "Tragen Sie sich in die Warteliste ein und gehören Sie zu den Ersten, die Zugang zu Valore erhalten.",
+      "cta": "Frühen Zugang anfragen"
+    }
+  },
+  "features": {
+    "consolidation": {
+      "title": "Multibank-Konsolidierung",
+      "description": "Depotauszüge beliebiger Depotbanken per PDF oder XLSX importieren. Alle Positionen an einem Ort."
+    },
+    "offline": {
+      "title": "Local-first. Offline by Design.",
+      "description": "Keine Daten verlassen Ihr Gerät. Keine Cloud-Abhängigkeit, keine Konnektivitätsanforderung."
+    },
+    "compliance": {
+      "title": "Compliance & KYC-Tracking",
+      "description": "Regulatorische Pflichten, Dokumentenstatus und Kundenrisikoprofile im gesamten Bestand überwachen."
+    },
+    "portfolio": {
+      "title": "Einheitliche Portfolioansicht",
+      "description": "Alle Positionen aller Depotbanken für alle Kunden — aggregiert auf einen Blick."
+    },
+    "kpis": {
+      "title": "Dashboard-KPIs",
+      "description": "AUM, P&L YTD, Asset Allocation und Depotbank-Zusammenfassungen in einer Übersicht."
+    },
+    "research": {
+      "title": "Asset-Recherche",
+      "description": "Mandantenübergreifendes Engagement in Wertpapieren, Sektoren oder Regionen abfragen."
+    },
+    "multilang": {
+      "title": "Mehrsprachig",
+      "description": "Vollständige Unterstützung für Englisch, Französisch, Spanisch, Deutsch, Italienisch und Portugiesisch."
+    },
+    "theme": {
+      "title": "Dunkel- & Hellmodus",
+      "description": "Eine durchdachte Oberfläche in beiden Modi, optimiert für den täglichen Dauereinsatz."
+    }
+  },
+  "product": {
+    "eyebrow": "Das Produkt",
+    "heading": "Präzisionswerkzeuge für privates Vermögen.",
+    "sub": "Ein vollständiges Vermögensverwaltungssystem für unabhängige Berater und Privatbanken.",
+    "blocks": {
+      "consolidation": {
+        "eyebrow": "Konsolidierung",
+        "heading": "Eine Ansicht über alle Depotbanken.",
+        "body": "Privatkunden halten Vermögen selten bei einer einzigen Institution. Valore verarbeitet Depotauszüge beliebiger Banken und führt sie zu einem einheitlichen Ledger zusammen.",
+        "bullet1": "Automatische Positionsnormalisierung über Auszugsformate hinweg",
+        "bullet2": "Historischer Import für präzise P&L-Berechnung",
+        "bullet3": "Devisenumrechnung zum Buchungskursdatum",
+        "bullet4": "Depotbank-Attribution in allen Berichten"
+      },
+      "privacy": {
+        "eyebrow": "Datenschutz",
+        "heading": "Privat durch Architektur, nicht durch Richtlinien.",
+        "body": "Valore verarbeitet alles lokal. Es gibt keine Benutzerkonten, keine Server und keine ausgehenden Verbindungen. Ihre Kundendaten verlassen niemals ein Netzwerk, das Ihnen nicht gehört.",
+        "bullet1": "Nach der Installation kein Internet erforderlich",
+        "bullet2": "Verschlüsselter lokaler Datenspeicher",
+        "bullet3": "Kein Absturzreporting, keine Analysen oder Telemetrie",
+        "bullet4": "Funktioniert in vollständig Air-Gap-Umgebungen"
+      },
+      "compliance": {
+        "eyebrow": "Compliance",
+        "heading": "Regulatorische Pflichten, organisiert.",
+        "body": "KYC-Dokumentation, Eignungsbeurteilungen und Prüfzyklen werden pro Kunde mit automatischen Ablaufbenachrichtigungen verfolgt.",
+        "bullet1": "Ablaufverfolgung und Benachrichtigungen für Dokumente",
+        "bullet2": "Versionierung von Risikoprofilen",
+        "bullet3": "Prüfungssichere Kundendaten",
+        "bullet4": "Konfigurierbare Prüfzyklen je Rechtsgebiet"
+      }
+    },
+    "grid": {
+      "eyebrow": "Alle Funktionen",
+      "heading": "Alles enthalten. Nichts Überflüssiges."
+    },
+    "cta": {
+      "heading": "Bereit, Ihre Praxis zu konsolidieren?",
+      "sub": "Zugang anfragen und unser Team meldet sich für eine private Demonstration.",
+      "button": "Frühen Zugang anfragen"
+    }
+  },
+  "questionnaire": {
+    "eyebrow": "Früher Zugang",
+    "heading": "Zugang zu Valore anfragen.",
+    "sub": "Wir nehmen eine begrenzte Anzahl von Vermögensverwaltungsprofis auf. Füllen Sie das Formular aus und wir melden uns für eine private Demonstration.",
+    "fields": {
+      "name": "Vollständiger Name",
+      "namePlaceholder": "Hans Müller",
+      "firm": "Unternehmen",
+      "firmPlaceholder": "Müller & Partner",
+      "email": "Geschäftliche E-Mail",
+      "emailPlaceholder": "h.mueller@firma.de",
+      "role": "Rolle / Titel",
+      "rolePlaceholder": "Portfoliomanager",
+      "aum": "Verwaltetes Vermögen",
+      "aumDefault": "Bereich auswählen",
+      "message": "Weitere Angaben",
+      "messagePlaceholder": "Anzahl der Kunden, Depotbanken, spezifische Anforderungen…"
+    },
+    "aum": {
+      "under10": "Unter 10 Mio. $",
+      "10to50": "10–50 Mio. $",
+      "50to250": "50–250 Mio. $",
+      "250to1b": "250 Mio. – 1 Mrd. $",
+      "over1b": "Über 1 Mrd. $",
+      "prefer": "Keine Angabe"
+    },
+    "submit": "Anfrage absenden",
+    "submitting": "Wird gesendet…",
+    "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+    "confidentiality": "Ihre Daten werden streng vertraulich behandelt und nicht an Dritte weitergegeben.",
+    "success": {
+      "heading": "Vielen Dank.",
+      "body": "Ihre Anfrage ist eingegangen. Wir werden sie prüfen und uns in Kürze für eine private Demonstration melden."
+    }
+  }
+}

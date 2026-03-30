@@ -1,0 +1,166 @@
+{
+  "nav": {
+    "home": "Home",
+    "product": "Product",
+    "earlyAccess": "Early Access",
+    "requestAccess": "Request Access"
+  },
+  "footer": {
+    "tagline": "Wealth Management System.",
+    "sub": "Private, consolidated, professional.",
+    "product": "Product",
+    "features": "Features",
+    "company": "Company",
+    "about": "About",
+    "copyright": "© {{year}} Valore. All rights reserved.",
+    "built": "Built for private banks and independent wealth managers."
+  },
+  "home": {
+    "eyebrow": "Wealth Management System",
+    "headline1": "Wealth, consolidated.",
+    "headline2": "Privately.",
+    "subtext": "Valore brings together positions across all custodians into one unified dashboard — built for independent wealth managers and private banks who demand discretion.",
+    "cta": "Request Early Access",
+    "explore": "Explore the product",
+    "pillars": {
+      "local": "No data uploaded",
+      "localSub": "Fully local",
+      "custodians": "All custodians",
+      "custodiansSub": "PDF & XLSX import",
+      "languages": "7 languages",
+      "languagesSub": "EN FR ES DE IT PT"
+    },
+    "privacy": {
+      "eyebrow": "The #1 priority",
+      "heading": "No data ever leaves your machine.",
+      "body": "Your clients' positions, portfolios, and personal information are processed and stored exclusively on your device. Valore requires no internet connection to function and maintains no servers, accounts, or telemetry. What is private remains private.",
+      "bullet1": "No account required to use the application",
+      "bullet2": "No outbound network requests during operation",
+      "bullet3": "Data stored locally in an encrypted, portable format",
+      "bullet4": "Works fully offline — air-gapped environments supported"
+    },
+    "features": {
+      "eyebrow": "Core capabilities",
+      "heading": "Everything a professional desk requires.",
+      "viewAll": "View all features →"
+    },
+    "quote": "Private wealth deserves private software — not a cloud subscription managed by someone else's infrastructure.",
+    "ctaBand": {
+      "heading": "Built for professionals who can't compromise.",
+      "sub": "Join the waitlist and be among the first wealth managers to access Valore when it opens to new clients.",
+      "cta": "Request Early Access"
+    }
+  },
+  "features": {
+    "consolidation": {
+      "title": "Multi-bank consolidation",
+      "description": "Import statements from any custodian via PDF or XLSX. All positions in one place, regardless of institution."
+    },
+    "offline": {
+      "title": "Local-first. Offline by design.",
+      "description": "No data ever leaves your machine. No cloud dependency, no connectivity requirement — full control remains with you."
+    },
+    "compliance": {
+      "title": "Compliance & KYC tracking",
+      "description": "Monitor regulatory obligations, document status, and client risk profiles across your entire book."
+    },
+    "portfolio": {
+      "title": "Unified portfolio view",
+      "description": "See every position, across every custodian, for every client — aggregated in real time. Allocation, valuation, and exposure at a glance."
+    },
+    "kpis": {
+      "title": "Dashboard KPIs",
+      "description": "Track AUM, P&L year-to-date, asset allocation breakdowns, and custodian-level summaries from a single command centre."
+    },
+    "research": {
+      "title": "Asset research",
+      "description": "Query cross-client exposure to any security, sector, or geography. Understand concentration risk before it becomes a problem."
+    },
+    "multilang": {
+      "title": "Multi-language",
+      "description": "Full interface support for English, French, Spanish, German, Italian, and Portuguese — with consistent terminology across all language variants."
+    },
+    "theme": {
+      "title": "Dark & light theme",
+      "description": "A thoughtfully designed interface in both dark and light modes, optimised for extended daily use across varying display environments."
+    }
+  },
+  "product": {
+    "eyebrow": "The product",
+    "heading": "Precision tools for private wealth.",
+    "sub": "A complete wealth management system for independent advisors and private banks — built around consolidation, privacy, and professional-grade reporting.",
+    "blocks": {
+      "consolidation": {
+        "eyebrow": "Consolidation",
+        "heading": "One view across all custodians.",
+        "body": "Private clients rarely hold assets with a single institution. Valore accepts custody statements from any bank, broker, or custodian — in PDF or XLSX — and resolves them into a unified ledger. No manual reconciliation. No spreadsheets.",
+        "bullet1": "Automatic position normalisation across statement formats",
+        "bullet2": "Historical import for accurate P&L calculation",
+        "bullet3": "FX conversion at date-of-record rates",
+        "bullet4": "Custodian-level attribution in all reports"
+      },
+      "privacy": {
+        "eyebrow": "Privacy",
+        "heading": "Private by architecture, not by policy.",
+        "body": "Valore processes everything locally. There are no user accounts, no servers, and no outbound connections during operation. Your client data never transits a network you don't own.",
+        "bullet1": "No internet required after installation",
+        "bullet2": "Encrypted local data store",
+        "bullet3": "No crash reporting, analytics, or telemetry",
+        "bullet4": "Works in fully air-gapped environments"
+      },
+      "compliance": {
+        "eyebrow": "Compliance",
+        "heading": "Regulatory obligations, organised.",
+        "body": "KYC documentation, suitability assessments, and review cycles are tracked per client with automatic expiry notifications. Compliance status is surfaced in the main dashboard, not buried in a separate module.",
+        "bullet1": "Document expiry tracking and alerts",
+        "bullet2": "Risk profile versioning",
+        "bullet3": "Audit-ready client records",
+        "bullet4": "Configurable review cycles per jurisdiction"
+      }
+    },
+    "grid": {
+      "eyebrow": "All capabilities",
+      "heading": "Everything included. Nothing superfluous."
+    },
+    "cta": {
+      "heading": "Ready to consolidate your practice?",
+      "sub": "Request access and our team will be in touch to arrange a private demonstration.",
+      "button": "Request Early Access"
+    }
+  },
+  "questionnaire": {
+    "eyebrow": "Early access",
+    "heading": "Request access to Valore.",
+    "sub": "We are onboarding a limited number of wealth management professionals. Complete the form below and our team will be in touch to arrange a private demonstration.",
+    "fields": {
+      "name": "Full name",
+      "namePlaceholder": "Jean Dupont",
+      "firm": "Firm",
+      "firmPlaceholder": "Dupont & Associés",
+      "email": "Work email",
+      "emailPlaceholder": "j.dupont@firm.com",
+      "role": "Role / Title",
+      "rolePlaceholder": "Portfolio Manager",
+      "aum": "Assets under management",
+      "aumDefault": "Select a range",
+      "message": "Anything you'd like us to know",
+      "messagePlaceholder": "Number of clients, custodians you work with, specific requirements…"
+    },
+    "aum": {
+      "under10": "Under $10M",
+      "10to50": "$10M – $50M",
+      "50to250": "$50M – $250M",
+      "250to1b": "$250M – $1B",
+      "over1b": "Over $1B",
+      "prefer": "Prefer not to say"
+    },
+    "submit": "Submit request",
+    "submitting": "Sending…",
+    "error": "Something went wrong. Please try again or email us directly.",
+    "confidentiality": "Your information is handled with strict confidentiality and will not be shared with third parties.",
+    "success": {
+      "heading": "Thank you.",
+      "body": "Your request has been received. We will review it and be in touch shortly to arrange a private demonstration."
+    }
+  }
+}
