@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import FeatureCard from '../components/FeatureCard'
+import { useInView } from '../hooks/useInView'
 import banksImg      from '../assets/banks.png'
 import clientImg     from '../assets/client.png'
 import complianceImg from '../assets/compliance.png'
@@ -86,23 +87,34 @@ const detailBlocks = [
   },
 ]
 
+function RevealSection({ children, className = '', delay = '' }) {
+  const [ref, inView] = useInView()
+  return (
+    <div ref={ref} className={`reveal ${delay} ${inView ? 'in-view' : ''} ${className}`}>
+      {children}
+    </div>
+  )
+}
+
 export default function Product() {
   return (
     <>
       {/* ─── Page header ─────────────────────────────────────────────── */}
       <section className="bg-bg-deep border-b border-border">
         <div className="container-content pt-20 pb-16">
-          <p className="text-accent text-xs uppercase tracking-[0.2em] font-medium mb-5">
-            The product
-          </p>
-          <h1 className="font-serif text-5xl md:text-6xl font-semibold text-fg mb-5 max-w-2xl">
-            Precision tools for private wealth.
-          </h1>
-          <p className="text-fg-dim text-lg font-light leading-relaxed max-w-xl">
-            A complete wealth management system for independent advisors and
-            private banks — built around consolidation, privacy, and
-            professional-grade reporting.
-          </p>
+          <RevealSection>
+            <p className="text-accent text-xs uppercase tracking-[0.2em] font-medium mb-5">
+              The product
+            </p>
+            <h1 className="font-serif text-5xl md:text-6xl font-semibold text-fg mb-5 max-w-2xl">
+              Precision tools for private wealth.
+            </h1>
+            <p className="text-fg-dim text-lg font-light leading-relaxed max-w-xl">
+              A complete wealth management system for independent advisors and
+              private banks — built around consolidation, privacy, and
+              professional-grade reporting.
+            </p>
+          </RevealSection>
         </div>
       </section>
 
@@ -119,7 +131,7 @@ export default function Product() {
               }`}
             >
               {/* Text */}
-              <div className="md:w-1/2 flex flex-col gap-5">
+              <RevealSection className="md:w-1/2 flex flex-col gap-5">
                 <p className="text-accent text-xs uppercase tracking-[0.2em] font-medium">
                   {eyebrow}
                 </p>
@@ -135,10 +147,10 @@ export default function Product() {
                     </li>
                   ))}
                 </ul>
-              </div>
+              </RevealSection>
 
               {/* Screenshot */}
-              <div className="md:w-1/2">
+              <RevealSection className="md:w-1/2" delay="reveal-delay-2">
                 <div className="rounded border border-border overflow-hidden bg-surface">
                   <img
                     src={img}
@@ -146,7 +158,7 @@ export default function Product() {
                     className="w-full h-auto object-cover object-top"
                   />
                 </div>
-              </div>
+              </RevealSection>
             </div>
           </div>
         </section>
