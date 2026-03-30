@@ -1,15 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;600&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --bg-deep:     #1c2030;
+    --surface:     #232738;
+    --card:        #2b2f42;
+    --accent:      #d4a843;
+    --accent-hover:#f0c96a;
+    --fg:          #e8e4dc;
+    --fg-dim:      #b0b8cc;
+    --muted:       #7880a0;
+    --border:      #343d58;
+    --positive:    #3ecf82;
+    --negative:    #e05555;
+  }
+
   html {
     scroll-behavior: smooth;
   }
 
   body {
-    @apply bg-white text-gray-900 font-sans antialiased;
+    @apply bg-bg-deep text-fg font-sans antialiased;
+  }
+
+  h1, h2, h3 {
+    @apply font-serif;
+  }
+}
+
+@layer utilities {
+  .container-content {
+    @apply max-w-6xl mx-auto px-6 lg:px-8;
   }
 }

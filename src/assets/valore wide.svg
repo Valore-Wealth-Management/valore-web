@@ -1,0 +1,32 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2382 1037" width="2382" height="1037">
+	<defs>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(600.619,0,0,601.06,292.781,373.531)">
+			<stop offset="0" stop-color="#ebd6a7"/>
+			<stop offset="1" stop-color="#9e7437"/>
+		</linearGradient>
+		<linearGradient id="g2" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(431.783,0,0,716.615,425.252,567.674)">
+			<stop offset="0" stop-color="#f9e3b1"/>
+			<stop offset="1" stop-color="#9f7739"/>
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 150px;fill: #162745;font-weight: 400;font-family: "DejaVuSans", "DejaVu Sans" } 
+		.t1 { font-size: 87px;fill: #162745;font-weight: 100;font-family: "Montserrat-Medium", "Montserrat" } 
+		.s2 { fill: #162745 } 
+		.s3 { fill: url(#g1) } 
+		.s4 { fill: url(#g2) } 
+	</style>
+	<text id="alore" style="transform: matrix(3.838,0,0,3.838,815.454,771.579)">
+		<tspan x="0" y="0" class="t0">a</tspan><tspan  y="0" class="t0">l</tspan><tspan  y="0" class="t0">o</tspan><tspan  y="0" class="t0">r</tspan><tspan  y="0" class="t0">e
+</tspan>
+	</text>
+	<text id="WEALTH MANAGEMENT SYSTEM" transform="translate(689,930)">
+		<tspan x="0" y="0" class="t1">W</tspan><tspan  y="0" class="t1">E</tspan><tspan  y="0" class="t1">A</tspan><tspan  y="0" class="t1">L</tspan><tspan  y="0" class="t1">T</tspan><tspan  y="0" class="t1">H</tspan><tspan  y="0" class="t1"> </tspan><tspan  y="0" class="t1">M</tspan><tspan  y="0" class="t1">A</tspan><tspan  y="0" class="t1">N</tspan><tspan  y="0" class="t1">A</tspan><tspan  y="0" class="t1">G</tspan><tspan  y="0" class="t1">E</tspan><tspan  y="0" class="t1">M</tspan><tspan  y="0" class="t1">E</tspan><tspan  y="0" class="t1">N</tspan><tspan  y="0" class="t1">T</tspan><tspan  y="0" class="t1"> </tspan><tspan  y="0" class="t1">S</tspan><tspan  y="0" class="t1">Y</tspan><tspan  y="0" class="t1">S</tspan><tspan  y="0" class="t1">T</tspan><tspan  y="0" class="t1">E</tspan><tspan  y="0" class="t1">M
+</tspan>
+	</text>
+	<path id="Color Fill 1" class="s2" d="m107 204.82l177.28 431.84 86.37-154.55 36.36-9.09-104.55-263.65z"/>
+	<path id="Color Fill 1 copy" class="s3" d="m325.19 668.48l95.46-127.28c0 0 33.09 26.53 52.45 22.12 27.26-6.21 128.42-194.89 160.02-195.19 24.9-0.23 33.47 27.87 67.42 22.84 21.2-3.15 146.97-210.37 146.97-210.37l39.83 19.69 6.06-127.29-113.64 63.64 31.49 19.34-123.08 191.56c0 0-37.49-33.42-64.9-31.33-24.53 1.88-161.06 210.86-161.06 210.86 0 0-28.91-31.82-49.09-30.44-25.92 1.76-119.75 153.67-119.75 153.67 0 0-3.94 10.9 8.52 20.7 10.34 8.14 23.3-2.52 23.3-2.52z"/>
+	<path id="Color Fill 1 copy 4" class="s2" d="m325.19 723.03l100.01-150.01c0 0 0.21 0.81 0.63 2.33 4.12 14.98 28.13 99.59 64.99 178.14 42.75 91.07 102.57 174.09 102.57 174.09h-190.92z"/>
+	<path id="Color Fill 1 copy 2" class="s4" d="m475.2 609.39l159.1-218.19 77.27 36.36 145.46-218.19-264.22 716.61c0 0-47.1-56.7-105.78-179.79-29.95-62.81-61.78-171.51-61.78-171.51 0 0 17.6-0.99 27.27 11.18 11.66 14.68 22.68 28.07 22.68 28.07"/>
+</svg>
