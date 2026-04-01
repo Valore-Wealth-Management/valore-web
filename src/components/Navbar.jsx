@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import valoreLogo from '../assets/valore wide.png'
+import valoreLogo from '../assets/valore wide.svg'
 
 const LANGS = ['EN', 'DE', 'FR', 'PT']
 

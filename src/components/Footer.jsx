@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import valoreLogo from '../assets/valore wide.png'
+import valoreLogo from '../assets/valore wide.svg'
 
 export default function Footer() {
   const { t } = useTranslation()
