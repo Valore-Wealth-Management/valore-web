@@ -3,7 +3,8 @@
     "home": "Início",
     "product": "Produto",
     "earlyAccess": "Acesso antecipado",
-    "requestAccess": "Solicitar acesso"
+    "requestAccess": "Solicitar acesso",
+    "about": "Sobre"
   },
   "footer": {
     "tagline": "Sistema de gestão de patrimônio.",
@@ -43,6 +44,44 @@
       "eyebrow": "Capacidades principais",
       "heading": "Tudo o que um escritório profissional necessita.",
       "viewAll": "Ver todas as funcionalidades →"
+    },
+    "problem": {
+      "eyebrow": "O desafio",
+      "heading": "A gestão de patrimônio ainda está presa em planilhas.",
+      "body": "Gestores de patrimônio independentes e bancos privados enfrentam dados fragmentados, risco de conformidade e complexidade operacional — sem a infraestrutura de uma grande instituição.",
+      "item1Title": "Posições dispersas entre custodiantes",
+      "item1Desc": "Gerir exposição em 5+ bancos significa consolidar manualmente extratos todos os meses — suscetível a erros e demorado.",
+      "item2Title": "Documentação KYC sem acompanhamento",
+      "item2Desc": "Documentos de compliance expiram sem aviso. Ciclos de revisão são perdidos. Trilhas de auditoria ficam incompletas.",
+      "item3Title": "Nenhuma visão unificada do cliente",
+      "item3Desc": "P&L total, alocação e exposição só podem ser calculados combinando dados de múltiplas fontes desconectadas.",
+      "item4Title": "Ferramentas cloud comprometem a privacidade",
+      "item4Desc": "A maioria dos softwares de portfólio exige o upload de dados sensíveis dos clientes para servidores de terceiros — inaceitável na gestão de patrimônio privado."
+    },
+    "complianceBadge": {
+      "eyebrow": "Prontidão regulatória",
+      "heading": "Desenvolvido para ambientes regulamentados.",
+      "body": "O Valore é concebido de raiz para suportar os fluxos de trabalho de conformidade que os gestores enfrentam — documentação KYC, acompanhamento de adequação e registos prontos para auditoria. Sem add-ons. Sem alternativas.",
+      "badge1": "Pronto para MiFID II",
+      "badge2": "KYC / AML integrado",
+      "badge3": "Registos prontos para auditoria",
+      "badge4": "Acompanhamento de adequação",
+      "sub": "Os requisitos de conformidade variam por jurisdição. Os fluxos de trabalho configuráveis do Valore adaptam-se ao seu ambiente regulatório — quer opere na UE, Médio Oriente ou além."
+    },
+    "mission": {
+      "eyebrow": "A nossa história",
+      "heading": "Desenvolvido por gestores de patrimônio, para gestores de patrimônio.",
+      "sub": "Nascido no Luxemburgo. Concebido para crescer globalmente.",
+      "body": "O Valore foi criado em parceria direta com a ANF Luxembourg — uma firma independente de gestão de patrimônio estabelecida. A plataforma foi construída para resolver problemas reais enfrentados por profissionais no terreno, não casos de uso hipotéticos.",
+      "value1Title": "Local-First",
+      "value1Desc": "Os seus dados nunca saem da sua máquina. Funcionalidade completa sem ligação à internet, por design.",
+      "value2Title": "Privacidade por Design",
+      "value2Desc": "Sem contas de utilizador, sem telemetria, sem relatórios de falhas. A privacidade é arquitetural, não uma definição.",
+      "value3Title": "Conformidade em Primeiro",
+      "value3Desc": "Os fluxos de trabalho de conformidade são nativos — não adicionados depois. Desenvolvido para profissionais que operam em ambientes regulamentados.",
+      "partnerLabel": "Desenvolvido em parceria com",
+      "partnerName": "ANF Luxembourg",
+      "partnerDesc": "Firma independente de gestão de patrimônio, Luxemburgo"
     },
     "quote": "O patrimônio privado merece software privado — não uma subscrição cloud gerida pela infraestrutura de outro.",
     "ctaBand": {
@@ -117,6 +156,11 @@
         "bullet3": "Registos de clientes prontos para auditoria",
         "bullet4": "Ciclos de revisão configuráveis por jurisdição"
       }
+    },
+    "video": {
+      "eyebrow": "Ver em ação",
+      "heading": "Assista ao Valore em ação.",
+      "placeholder": "Demo do produto — em breve"
     },
     "grid": {
       "eyebrow": "Todas as capacidades",

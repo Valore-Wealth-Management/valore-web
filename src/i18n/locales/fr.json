@@ -3,7 +3,8 @@
     "home": "Accueil",
     "product": "Produit",
     "earlyAccess": "Accès anticipé",
-    "requestAccess": "Demander l'accès"
+    "requestAccess": "Demander l'accès",
+    "about": "À propos"
   },
   "footer": {
     "tagline": "Système de gestion de patrimoine.",
@@ -43,6 +44,44 @@
       "eyebrow": "Fonctionnalités clés",
       "heading": "Tout ce qu'un bureau professionnel requiert.",
       "viewAll": "Voir toutes les fonctionnalités →"
+    },
+    "problem": {
+      "eyebrow": "Le défi",
+      "heading": "La gestion de patrimoine est encore prisonnière des tableurs.",
+      "body": "Les gérants de fortune indépendants et les banques privées font face à des données fragmentées, des risques de conformité et une complexité opérationnelle — sans l'infrastructure d'une grande institution.",
+      "item1Title": "Positions dispersées entre dépositaires",
+      "item1Desc": "Gérer l'exposition sur 5+ banques implique de consolider manuellement les relevés chaque mois — source d'erreurs et chronophage.",
+      "item2Title": "Documentation KYC non suivie",
+      "item2Desc": "Les documents de conformité expirent sans alerte. Les cycles de révision sont manqués. Les pistes d'audit sont incomplètes.",
+      "item3Title": "Aucune vue client unifiée",
+      "item3Desc": "Le P&L total, l'allocation et l'exposition ne peuvent être calculés qu'en combinant des données de sources multiples et déconnectées.",
+      "item4Title": "Les outils cloud compromettent la confidentialité",
+      "item4Desc": "La plupart des logiciels de portefeuille exigent de téléverser des données clients sensibles vers des serveurs tiers — inacceptable en gestion de patrimoine privé."
+    },
+    "complianceBadge": {
+      "eyebrow": "Conformité réglementaire",
+      "heading": "Conçu pour les environnements réglementés.",
+      "body": "Valore est conçu de zéro pour prendre en charge les flux de travail de conformité auxquels font face les gérants — documentation KYC, suivi d'adéquation et dossiers prêts pour l'audit. Sans modules supplémentaires. Sans compromis.",
+      "badge1": "Compatible MiFID II",
+      "badge2": "KYC / AML intégré",
+      "badge3": "Dossiers prêts pour l'audit",
+      "badge4": "Suivi d'adéquation",
+      "sub": "Les exigences de conformité varient selon les juridictions. Les flux de travail configurables de Valore s'adaptent à votre environnement réglementaire — que vous opériez dans l'UE, au Moyen-Orient ou ailleurs."
+    },
+    "mission": {
+      "eyebrow": "Notre histoire",
+      "heading": "Construit par des gérants de fortune, pour des gérants de fortune.",
+      "sub": "Né à Luxembourg. Conçu pour s'étendre au monde entier.",
+      "body": "Valore a été créé en partenariat direct avec ANF Luxembourg — une société de gestion de fortune indépendante établie. La plateforme a été construite pour résoudre de vrais problèmes rencontrés par des praticiens sur le terrain, pas des cas d'usage hypothétiques.",
+      "value1Title": "Local-First",
+      "value1Desc": "Vos données ne quittent jamais votre machine. Fonctionnalité complète sans connexion Internet, par conception.",
+      "value2Title": "Confidentialité par conception",
+      "value2Desc": "Pas de comptes utilisateurs, pas de télémétrie, pas de rapports de plantage. La confidentialité est architecturale, pas un paramètre.",
+      "value3Title": "Conformité en priorité",
+      "value3Desc": "Les flux de travail de conformité sont natifs — pas rajoutés. Conçu pour les professionnels qui opèrent dans des environnements réglementés.",
+      "partnerLabel": "Développé en partenariat avec",
+      "partnerName": "ANF Luxembourg",
+      "partnerDesc": "Société de gestion de fortune indépendante, Luxembourg"
     },
     "quote": "Le patrimoine privé mérite un logiciel privé — pas un abonnement cloud géré par l'infrastructure de quelqu'un d'autre.",
     "ctaBand": {
@@ -117,6 +156,11 @@
         "bullet3": "Dossiers clients prêts pour l'audit",
         "bullet4": "Cycles de révision configurables par juridiction"
       }
+    },
+    "video": {
+      "eyebrow": "Voir en action",
+      "heading": "Regardez Valore en action.",
+      "placeholder": "Démo du produit — bientôt disponible"
     },
     "grid": {
       "eyebrow": "Toutes les fonctionnalités",

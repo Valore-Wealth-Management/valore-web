@@ -3,7 +3,8 @@
     "home": "Startseite",
     "product": "Produkt",
     "earlyAccess": "Früher Zugang",
-    "requestAccess": "Zugang anfragen"
+    "requestAccess": "Zugang anfragen",
+    "about": "Über uns"
   },
   "footer": {
     "tagline": "Vermögensverwaltungssystem.",
@@ -43,6 +44,44 @@
       "eyebrow": "Kernfunktionen",
       "heading": "Alles, was ein professionelles Büro braucht.",
       "viewAll": "Alle Funktionen anzeigen →"
+    },
+    "problem": {
+      "eyebrow": "Die Herausforderung",
+      "heading": "Vermögensverwaltung steckt noch in Tabellen fest.",
+      "body": "Unabhängige Vermögensverwalter und Privatbanken stehen vor fragmentierten Daten, Compliance-Risiken und operativer Komplexität — ohne die Infrastruktur einer Großinstitution.",
+      "item1Title": "Positionen über Depotbanken verteilt",
+      "item1Desc": "Die Verwaltung von Engagements bei 5+ Banken bedeutet, Auszüge jeden Monat manuell zu konsolidieren — fehleranfällig und zeitaufwendig.",
+      "item2Title": "KYC-Dokumentation unkontrolliert",
+      "item2Desc": "Compliance-Dokumente laufen ohne Warnung ab. Prüfzyklen werden versäumt. Audit-Trails sind unvollständig.",
+      "item3Title": "Keine einheitliche Kundenansicht",
+      "item3Desc": "Gesamt-P&L, Allokation und Engagement können nur durch Kombination von Daten aus mehreren, voneinander getrennten Quellen berechnet werden.",
+      "item4Title": "Cloud-Tools verletzen die Privatsphäre",
+      "item4Desc": "Die meisten Portfolioprogramme erfordern das Hochladen sensibler Kundendaten auf Server Dritter — für die private Vermögensverwaltung inakzeptabel."
+    },
+    "complianceBadge": {
+      "eyebrow": "Regulatorische Bereitschaft",
+      "heading": "Für regulierte Umgebungen entwickelt.",
+      "body": "Valore ist von Grund auf für die Compliance-Workflows von Vermögensverwaltern konzipiert — KYC-Dokumentation, Eignungs-Tracking und prüfungsfertige Aufzeichnungen. Keine Zusatzmodule. Keine Umwege.",
+      "badge1": "MiFID II-konform",
+      "badge2": "KYC / AML integriert",
+      "badge3": "Prüfungsfertige Unterlagen",
+      "badge4": "Eignungs-Tracking",
+      "sub": "Compliance-Anforderungen variieren je nach Rechtsgebiet. Die konfigurierbaren Workflows von Valore passen sich Ihrer regulatorischen Umgebung an — ob Sie in der EU, im Nahen Osten oder darüber hinaus tätig sind."
+    },
+    "mission": {
+      "eyebrow": "Unsere Geschichte",
+      "heading": "Von Vermögensverwaltern für Vermögensverwalter entwickelt.",
+      "sub": "Geboren in Luxemburg. Konzipiert für weltweite Skalierung.",
+      "body": "Valore wurde in direkter Partnerschaft mit ANF Luxembourg entwickelt — einer etablierten unabhängigen Vermögensverwaltungsgesellschaft. Die Plattform wurde entwickelt, um echte Probleme von Praktikern im Feld zu lösen, keine hypothetischen Anwendungsfälle.",
+      "value1Title": "Local-First",
+      "value1Desc": "Ihre Daten verlassen niemals Ihr Gerät. Voller Funktionsumfang ohne Internetverbindung — by Design.",
+      "value2Title": "Datenschutz by Design",
+      "value2Desc": "Keine Benutzerkonten, keine Telemetrie, keine Absturzberichte. Datenschutz ist architektonisch, kein Einstellungsparameter.",
+      "value3Title": "Compliance zuerst",
+      "value3Desc": "Compliance-Workflows sind nativ integriert — kein Nachgedanke. Entwickelt für Profis, die in regulierten Umgebungen arbeiten.",
+      "partnerLabel": "Entwickelt in Partnerschaft mit",
+      "partnerName": "ANF Luxembourg",
+      "partnerDesc": "Unabhängige Vermögensverwaltungsgesellschaft, Luxemburg"
     },
     "quote": "Privates Vermögen verdient private Software — kein Cloud-Abonnement, das von fremder Infrastruktur verwaltet wird.",
     "ctaBand": {
@@ -117,6 +156,11 @@
         "bullet3": "Prüfungssichere Kundendaten",
         "bullet4": "Konfigurierbare Prüfzyklen je Rechtsgebiet"
       }
+    },
+    "video": {
+      "eyebrow": "In Aktion sehen",
+      "heading": "Valore in Aktion erleben.",
+      "placeholder": "Produkt-Demo — demnächst verfügbar"
     },
     "grid": {
       "eyebrow": "Alle Funktionen",

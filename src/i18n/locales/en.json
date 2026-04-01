@@ -3,7 +3,8 @@
     "home": "Home",
     "product": "Product",
     "earlyAccess": "Early Access",
-    "requestAccess": "Request Access"
+    "requestAccess": "Request Access",
+    "about": "About"
   },
   "footer": {
     "tagline": "Wealth Management System.",
@@ -43,6 +44,44 @@
       "eyebrow": "Core capabilities",
       "heading": "Everything a professional desk requires.",
       "viewAll": "View all features →"
+    },
+    "problem": {
+      "eyebrow": "The challenge",
+      "heading": "Wealth management is still trapped in spreadsheets.",
+      "body": "Independent wealth managers and private banks face fragmented data, compliance risk, and operational complexity — without the infrastructure of a large institution.",
+      "item1Title": "Positions scattered across custodians",
+      "item1Desc": "Managing exposure across 5+ banks means manually consolidating statements every month — error-prone and time-consuming.",
+      "item2Title": "KYC documentation untracked",
+      "item2Desc": "Compliance documents expire without notice. Review cycles are missed. Audit trails are incomplete.",
+      "item3Title": "No unified client view",
+      "item3Desc": "Total P&L, allocation, and exposure can only be calculated by combining data from multiple disconnected sources.",
+      "item4Title": "Cloud tools breach client privacy",
+      "item4Desc": "Most portfolio software requires uploading sensitive client data to third-party servers — unacceptable for private wealth management."
+    },
+    "complianceBadge": {
+      "eyebrow": "Regulatory readiness",
+      "heading": "Built for regulated environments.",
+      "body": "Valore is designed from the ground up to support the compliance workflows that wealth managers face — KYC documentation, suitability tracking, and audit-ready records. No add-ons. No workarounds.",
+      "badge1": "MiFID II Ready",
+      "badge2": "KYC / AML Built-in",
+      "badge3": "Audit-Ready Records",
+      "badge4": "Suitability Tracking",
+      "sub": "Compliance requirements vary by jurisdiction. Valore's configurable workflows adapt to your regulatory environment — whether you operate in the EU, Middle East, or beyond."
+    },
+    "mission": {
+      "eyebrow": "Our story",
+      "heading": "Built by wealth managers, for wealth managers.",
+      "sub": "Born in Luxembourg. Designed to scale globally.",
+      "body": "Valore was created in direct partnership with ANF Luxembourg — an established independent wealth management firm. The platform was built to solve real problems faced by practitioners in the field, not hypothetical use cases drawn up in a product meeting.",
+      "value1Title": "Local-First",
+      "value1Desc": "Your data never leaves your machine. Full functionality without an internet connection, by design.",
+      "value2Title": "Privacy by Design",
+      "value2Desc": "No user accounts, no telemetry, no crash reports. Privacy is architectural, not a setting.",
+      "value3Title": "Regulatory-First",
+      "value3Desc": "Compliance workflows are native — not bolted on. Built for professionals who operate in regulated environments.",
+      "partnerLabel": "Developed in partnership with",
+      "partnerName": "ANF Luxembourg",
+      "partnerDesc": "Independent wealth management firm, Luxembourg"
     },
     "quote": "Private wealth deserves private software — not a cloud subscription managed by someone else's infrastructure.",
     "ctaBand": {
@@ -117,6 +156,11 @@
         "bullet3": "Audit-ready client records",
         "bullet4": "Configurable review cycles per jurisdiction"
       }
+    },
+    "video": {
+      "eyebrow": "See it in action",
+      "heading": "Watch Valore in action.",
+      "placeholder": "Product demo — coming soon"
     },
     "grid": {
       "eyebrow": "All capabilities",

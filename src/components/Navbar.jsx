@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import valoreLogo from '../assets/valore wide.svg'
+import valoreLogo from '../assets/valore wide.png'
 
 const LANGS = ['EN', 'DE', 'FR', 'PT']
 
@@ -18,6 +18,7 @@ export default function Navbar() {
   const links = [
     { to: '/',        label: t('nav.home')    },
     { to: '/product', label: t('nav.product') },
+    { to: '/about',   label: t('nav.about')   },
   ]
 
   return (
@@ -29,9 +30,7 @@ export default function Navbar() {
       <div className="container-content h-full flex items-center justify-between">
 
         {/* Logo */}
-        <Link to="/" className="flex items-center shrink-0">
-          <img src={valoreLogo} alt="Valore" className="h-7 w-auto" />
-        </Link>
+        <img src={valoreLogo} alt="Valore" className="h-12 w-auto shrink-0" style={{ imageRendering: 'auto' }} />
 
         {/* Links + lang switcher */}
         <div className="hidden md:flex items-center gap-8">
@@ -39,9 +38,10 @@ export default function Navbar() {
             <NavLink
               key={to}
               to={to}
+              end={to === '/'}
               className={({ isActive }) =>
-                `text-sm font-medium transition-colors ${
-                  isActive ? 'text-fg' : 'text-fg-dim hover:text-fg'
+                `nav-underline text-sm font-medium transition-colors ${
+                  isActive ? 'text-fg active-link' : 'text-fg-dim hover:text-fg'
                 }`
               }
             >

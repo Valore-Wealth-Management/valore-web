@@ -25,9 +25,9 @@ export default function Home() {
   ]
 
   const pillars = [
-    { label: t('home.pillars.local'),      sub: t('home.pillars.localSub')       },
-    { label: t('home.pillars.custodians'), sub: t('home.pillars.custodiansSub')  },
-    { label: t('home.pillars.languages'),  sub: t('home.pillars.languagesSub')   },
+    { label: t('home.pillars.local'),      sub: t('home.pillars.localSub')      },
+    { label: t('home.pillars.custodians'), sub: t('home.pillars.custodiansSub') },
+    { label: t('home.pillars.languages'),  sub: t('home.pillars.languagesSub')  },
   ]
 
   const privacyBullets = [
@@ -43,39 +43,41 @@ export default function Home() {
       <section className="bg-bg-deep hero-glow">
         <div className="container-content pt-28 pb-0">
 
-          <p className="text-accent text-xs font-medium uppercase tracking-[0.22em] mb-7">
-            {t('home.eyebrow')}
-          </p>
+          <RevealSection>
+            <p className="text-accent text-xs font-medium uppercase tracking-[0.22em] mb-7">
+              {t('home.eyebrow')}
+            </p>
 
-          <h1 className="font-serif text-6xl md:text-7xl lg:text-[5.5rem] font-semibold text-fg mb-6 leading-none tracking-tight">
-            {t('home.headline1')}
-            <br />
-            <span className="text-accent">{t('home.headline2')}</span>
-          </h1>
+            <h1 className="font-serif text-6xl md:text-7xl lg:text-[5.5rem] font-semibold text-fg mb-6 leading-none tracking-tight">
+              {t('home.headline1')}
+              <br />
+              <span className="shimmer">{t('home.headline2')}</span>
+            </h1>
 
-          <p className="text-fg-dim text-xl font-light leading-relaxed max-w-xl mb-3">
-            {t('home.subtext')}
-          </p>
+            <p className="text-fg-dim text-xl font-light leading-relaxed max-w-xl mb-3">
+              {t('home.subtext')}
+            </p>
 
-          <p className="text-muted text-base font-light mb-10 h-6">
-            <TypeWriter />
-          </p>
+            <p className="text-muted text-base font-light mb-10 h-6">
+              <TypeWriter />
+            </p>
 
-          <div className="flex flex-row gap-4 items-center mb-16">
-            <Link
-              to="/questionnaire"
-              className="inline-flex items-center px-7 py-3 rounded bg-accent hover:bg-accent-hover text-bg-deep text-sm font-semibold tracking-wide transition-colors duration-200"
-            >
-              {t('home.cta')}
-            </Link>
-            <Link
-              to="/product"
-              className="inline-flex items-center gap-1.5 text-fg-dim hover:text-fg text-sm font-medium transition-colors"
-            >
-              {t('home.explore')}
-              <span aria-hidden>→</span>
-            </Link>
-          </div>
+            <div className="flex flex-row gap-4 items-center mb-16">
+              <Link
+                to="/questionnaire"
+                className="inline-flex items-center px-7 py-3 rounded bg-accent hover:bg-accent-hover text-bg-deep text-sm font-semibold tracking-wide transition-colors duration-200"
+              >
+                {t('home.cta')}
+              </Link>
+              <Link
+                to="/product"
+                className="inline-flex items-center gap-1.5 text-fg-dim hover:text-fg text-sm font-medium transition-colors"
+              >
+                {t('home.explore')}
+                <span aria-hidden>→</span>
+              </Link>
+            </div>
+          </RevealSection>
         </div>
 
         {/* Full-bleed screenshot */}
@@ -172,7 +174,7 @@ export default function Home() {
         <div className="container-content py-28">
           <RevealSection>
             <p className="font-serif text-3xl md:text-5xl font-semibold text-fg leading-snug max-w-4xl">
-              <span className="text-accent">{t('home.quote').split('—')[0]}</span>
+              <span className="shimmer">{t('home.quote').split('—')[0]}</span>
               {t('home.quote').includes('—') ? `— ${t('home.quote').split('—')[1]}` : ''}
             </p>
           </RevealSection>

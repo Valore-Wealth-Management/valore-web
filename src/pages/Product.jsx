@@ -118,6 +118,34 @@ export default function Product() {
         </section>
       ))}
 
+      {/* ─── Video placeholder ──────────────────────────────────────── */}
+      <section className="bg-bg-deep border-t border-border">
+        <div className="container-content py-24">
+
+          <RevealSection className="mb-10">
+            <p className="text-accent text-xs uppercase tracking-[0.2em] font-medium mb-4">
+              {t('product.video.eyebrow')}
+            </p>
+            <h2 className="font-serif text-3xl md:text-4xl font-semibold text-fg leading-tight max-w-xl">
+              {t('product.video.heading')}
+            </h2>
+          </RevealSection>
+
+          <RevealSection delay="reveal-delay-1">
+            <div className="relative w-full rounded border border-border overflow-hidden shadow-lg" style={{ aspectRatio: '16/9' }}>
+              <iframe
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                title={t('product.video.heading')}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="absolute inset-0 w-full h-full"
+              />
+            </div>
+          </RevealSection>
+
+        </div>
+      </section>
+
       {/* ─── Full feature grid ───────────────────────────────────────── */}
       <section className="bg-bg-deep border-t border-border">
         <div className="container-content py-24">

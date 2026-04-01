@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import valoreLogo from '../assets/valore wide.svg'
+import valoreLogo from '../assets/valore wide.png'
 
 export default function Footer() {
   const { t } = useTranslation()
@@ -29,7 +29,7 @@ export default function Footer() {
             </div>
             <div className="flex flex-col gap-3">
               <span className="text-muted text-xs uppercase tracking-widest font-medium">{t('footer.company')}</span>
-              <Link to="/" className="text-fg-dim hover:text-fg text-sm transition-colors">{t('footer.about')}</Link>
+              <Link to="/about" className="text-fg-dim hover:text-fg text-sm transition-colors">{t('footer.about')}</Link>
             </div>
           </div>
         </div>
